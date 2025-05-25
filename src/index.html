@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="image/logo.png">
+    <title>Gabriel Pohrib</title>
+    <!-- SEO Meta Description -->
+    <meta name="description" content="Gabriel Pohrib - Web Developer Portfolio. Modern, responsive, and visually appealing websites with a focus on user experience and clean code.">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Gabriel Pohrib - Web Developer Portfolio">
+    <meta property="og:description" content="Modern, responsive, and visually appealing websites by Gabriel Pohrib. Explore my work and get in touch!">
+    <meta property="og:image" content="image/logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://http://gabrielpohrib.atwebpages.com/">
+</head>
+<body>
+    <nav>
+        <div style="display: flex; align-items: center;">
+            <img src="image/logo.png" alt="Logo" style="height:40px; margin-right:20px;">
+            <ul style="display: flex; align-items: center; margin: 0;">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="home"></div>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Gabriel Pohrib, a passionate web developer dedicated to building modern, responsive, and visually appealing websites. I enjoy turning complex problems into simple, beautiful, and intuitive designs. My goal is to always deliver the best user experience through clean and efficient code.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-icons">
+            <div class="skill-icon">
+                <img src="image/html.png" alt="HTML5" />
+                <span>HTML5</span>
+            </div>
+            <div class="skill-icon">
+                <img src="image/css.png" alt="CSS3" />
+                <span>CSS3</span>
+            </div>
+            <div class="skill-icon">
+                <img src="image/javascript.png" alt="JavaScript" />
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-icon">
+                <img src="image/react.png" alt="React" />
+                <span>React</span>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:gabriel.pohrib84@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <span>Gabriel Pohrib</span>
+            <a href="mailto:gabriel.pohrib84@gmail.com" aria-label="Email" class="footer-icon">
+                <img src="image/email-ocon.jpg" alt="Email" />
+            </a>
+            <a href="https://www.facebook.com/pohrib.gabriel.98" target="_blank" aria-label="Facebook" class="footer-icon">
+                <img src="image/Facebook_Logo.png" alt="Facebook" />
+            </a>
+            <a href="https://www.linkedin.com/in/gabriel-pohrib-37654b251" target="_blank" aria-label="LinkedIn" class="footer-icon">
+                <img src="image/LinkedIn_icon.png" alt="LinkedIn logo" />
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
